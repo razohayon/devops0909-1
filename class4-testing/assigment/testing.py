@@ -20,3 +20,11 @@ def ass_2():
 
 def ass_3():
     print("same location")
+
+def ass_4():
+    drv_c = webdriver.Chrome()
+    drv_c.get("https://translate.google.com/?sl=iw&tl=en&op=translate")
+    drv_c.find_element_by_xpath("/html/body/c-wiz/div/div[2]/c-wiz/div[2]/c-wiz/div[1]/div[2]/div[2]/c-wiz["
+                                "1]/span/span/div/textarea").send_keys("גנן")
+
+#ass_4()

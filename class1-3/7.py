@@ -8,4 +8,5 @@ def power(my_number, multiple):
 
 
 print(power(7, 3))
+"kll"
 

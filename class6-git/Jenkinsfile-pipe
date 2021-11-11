@@ -1,0 +1,9 @@
+properties([pipelineTriggers([pollSCM('* * * * *')])])
+node("agent02"){
+    stage("clone"){
+        git "https://github.com/razohayon/devops0909-1.git"
+    }
+    stage("show files"){
+        sh """ls -lRt"""
+    }
+}

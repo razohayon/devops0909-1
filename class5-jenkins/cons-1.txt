@@ -2,5 +2,7 @@ Started by user Raz Ohayon
 Running as SYSTEM
 Building remotely on agent02 in workspace /tmp/workspace/Exerecise/create_file
 [create_file] $ /bin/sh -xe /tmp/jenkins4436144886284713464.sh
-+ echo razo
++ echo razo #jkjkjk
 Finished: SUCCESS
+
+klkl

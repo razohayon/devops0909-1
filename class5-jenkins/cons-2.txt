@@ -1,0 +1,6 @@
+Started by user Raz Ohayon
+Running as SYSTEM
+Building remotely on agent02 in workspace /tmp/workspace/Exerecise/move_my_file
+[move_my_file] $ /bin/sh -xe /tmp/jenkins15895817344894237699.sh
++ mv /home/razo/my_name /tmp
+Finished: SUCCESS

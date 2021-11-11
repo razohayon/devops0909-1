@@ -28,3 +28,15 @@ def ass_4():
                                 "1]/span/span/div/textarea").send_keys("גנן")
 
 #ass_4()
+def ass_5():
+    drv_c = webdriver.Chrome()
+    drv_c.get("https://youtube.com")
+    drv_c.find_element_by_xpath('/html/body/ytd-app/div/div/ytd-masthead/div[3]/div[2]/ytd-searchbox/form/div[1]/div[1]/input').send_keys("בדד")
+
+#ass_5()
+def ass_4():
+    drv_c = webdriver.Chrome()
+    drv_c.get("https://translate.google.com/?sl=iw&tl=en&op=translate")
+    drv_c.find_element_by_xpath("/html/body/c-wiz/div/div[2]/c-wiz/div[2]/c-wiz/div[1]/div[2]/div[2]/c-wiz["
+                                "1]/span/span/div/textarea").send_keys("גנן")
+    drv_c.create_web_element()

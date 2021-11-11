@@ -9,3 +9,4 @@ def power(my_number, multiple):
 
 print(power(7, 3))
 my_func("Razo")
+age = print("conflict")
